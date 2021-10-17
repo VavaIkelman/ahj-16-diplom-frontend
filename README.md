@@ -4,7 +4,7 @@
 
 [Репозиторий backend](https://github.com/VavaIkelman/ahj-16-diplom-backend)
 
-[Изображение фона взято с сайта Thank you!](https://www.splitshire.com/wp-content/uploads/2016/06/IMG_0167.jpg) 
+[Изображение фона взято с сайта www.splitshire.com](https://www.splitshire.com/snowy-mountains/) Thank you!
 
 ---
 # Chaos Orginizer
