@@ -12,7 +12,7 @@ export default class Chaos {
   constructor(element, server) {
     this.server = server;
 
-    // Собираем элементы
+    // Сборка элементов
     this.parentElement = element;
     this.formElement = this.parentElement.querySelector('.chaos_form');
     this.inputElement = this.formElement.querySelector('.chaos_form_input');
@@ -25,7 +25,7 @@ export default class Chaos {
     this.messagesElement = this.parentElement.querySelector('.chaos_messages');
     this.messages = new Map();
 
-    // Заводим вспомогательные классы
+    // Интеграция доп классов
     this.request = new Request(this.server);
     this.sidePanel = new SidePanel(this.parentElement.querySelector('.chaos_side'), this, this.request);
     this.geolocation = new Geolocation(this.formElement);
@@ -34,7 +34,7 @@ export default class Chaos {
     this.pin = new Pin(this, this.request);
     this.favourites = new Favourites(this, this.request);
 
-    // Привязываем контекст
+    // Привязка контекста
     this.submitForm = this.submitForm.bind(this);
     this.showAddForm = this.showAddForm.bind(this);
     this.removeError = this.removeError.bind(this);
@@ -54,7 +54,7 @@ export default class Chaos {
   }
 
   init() {
-    // Соединяемся с WebSocket
+    // WebSocket
     this.request.callbacks = {
       error: this.connectionError,
       load: this.renderMessages,
@@ -73,7 +73,7 @@ export default class Chaos {
     };
     this.request.init();
 
-    // Вешаем события
+    // Привязка событий
     this.messagesElement.addEventListener('scroll', this.lazyLoad);
     this.formElement.addEventListener('submit', this.submitForm);
     this.clipElement.addEventListener('click', this.showAddForm);
