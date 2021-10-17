@@ -145,7 +145,7 @@ export default class DOM {
   static createSideElement(className, text, count) {
     const sideElement = document.createElement('li');
     sideElement.classList.add('chaos_side_item', className);
-    sideElement.innerHTML = `${text}: <span>${count}</span>`;
+    sideElement.innerHTML = `<span>${count}</span> ${text}`;
     return sideElement;
   }
 

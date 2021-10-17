@@ -2,4 +2,10 @@
 
 [GH-Pages](https://vavaikelman.github.io/ahj-16-diplom-frontend/)
 
-[bgr_image from](https://www.splitshire.com/wp-content/uploads/2016/06/IMG_0167.jpg) Thank you!
+[Репозиторий backend](https://github.com/VavaIkelman/ahj-16-diplom-backend)
+
+[Изображение фона взято с сайта Thank you!](https://www.splitshire.com/wp-content/uploads/2016/06/IMG_0167.jpg) 
+
+---
+# Chaos Orginizer
+

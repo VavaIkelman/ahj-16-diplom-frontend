@@ -42,7 +42,7 @@ export default class Favourites {
     favouriteElement.addEventListener('click', this.removeFromFavourites);
   }
 
-  // Удаляем метку избранного с сообщения
+  // Удаление метки избранного из сообщения
   removeFavouriteMark(messageId) {
     const messageElement = [...this.messageClass.messages.entries()]
       .filter(({ 1: id }) => id === messageId).map(([key]) => key);
