@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-syntax */
 import Request from './Request';
 import DOM from './DOM';
 import SidePanel from './SidePanel';

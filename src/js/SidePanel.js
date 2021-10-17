@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-syntax */
 import DOM from './DOM';
 
 export default class SidePanel {
