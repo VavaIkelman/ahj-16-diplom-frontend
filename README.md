@@ -4,8 +4,6 @@
 
 [Репозиторий backend](https://github.com/VavaIkelman/ahj-16-diplom-backend)
 
-[Изображение фона взято с сайта www.splitshire.com](https://www.splitshire.com/snowy-mountains/) Thank you!
-
 ---
 # Chaos Orginizer
 
