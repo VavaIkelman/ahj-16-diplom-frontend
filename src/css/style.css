@@ -1,8 +1,8 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: url(/src/img/bgr_image.png);
+    /* background-image: url(/src/img/bgr_image.png); */
     background-attachment: fixed;
-    
+    background-color: blue;
     background-repeat: no-repeat;
     background-size: cover;
 }
